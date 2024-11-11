@@ -1,0 +1,9 @@
+[
+  {
+    "model": "files.responsesettings",
+    "pk": 1,
+    "fields": {
+      "mode": "normal"
+    }
+  }
+]

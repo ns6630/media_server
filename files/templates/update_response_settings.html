@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>Response settings page</h1>
+    <form method="post">
+        <fieldset>
+            <legend>Update response settings:</legend>
+            {% csrf_token %}
+            {{ form.as_p }}
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+
+{% endblock %}
